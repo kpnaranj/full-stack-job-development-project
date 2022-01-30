@@ -1,5 +1,12 @@
+import Landing from "./pages/Landing";
+
 const App = () => {
-  return <h1 className="App">Hello there</h1>;
+  return (
+    <div>
+      <h1 className="App">Hello there</h1>
+      <Landing />
+    </div>
+  );
 };
 
 export default App;
